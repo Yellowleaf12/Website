@@ -136,6 +136,19 @@ form input[type=password]{
    border-radius: 10px;
 }
 
+form input[type=text]:hover{
+   border: rgb(238, 174, 0) solid 2px; 
+}
+form input[type=tel]:hover{
+   border: rgb(238, 174, 0) solid 2px; 
+}
+form input[type=email]:hover{
+   border: rgb(238, 174, 0) solid 2px; 
+}
+form input[type=password]:hover{
+   border: rgb(238, 174, 0) solid 2px; 
+}
+
 form input[type=submit]{
    width: 100%;
    height: 30px;
