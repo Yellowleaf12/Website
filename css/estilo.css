@@ -118,6 +118,7 @@ form{
 }
 
 form h2{
+   float: left;
    text-align: center;
    color: #000;
    font-family: Arial, Helvetica, sans-serif;
@@ -200,6 +201,48 @@ form a{
 form a:hover{
    color: rgb(53, 88, 243);
 }
+
+.google img{
+   width: 15px;
+}
+
+.google {
+   color: #fff;
+   padding: 10px;
+   font-size: 20px;
+   margin-left: 15%;
+   background: #BDBDBD;
+   border-radius: 5px;
+   border: #000 solid 1px;
+}
+
+.google:hover{
+   color: #fff;
+   background: #FFBF00;
+}
+
+.insta{
+   color: #fff;
+   padding: 10px;
+   font-size: 20px;
+   margin-left: 11%;
+   background:  #BDBDBD;
+   border-radius: 5px;
+   border: #000 solid 1px;
+}
+
+.insta img{
+   width: 15px;
+}
+
+.insta:hover{
+   color: #fff;
+   background: #FFBF00;
+}
+
+
+
+
 
 /*Cadastro*/
 .form{
