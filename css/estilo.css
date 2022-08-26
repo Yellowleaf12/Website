@@ -157,7 +157,7 @@ form input[type=password]:hover{
 }
 
 form input[type=submit]{
-   width: 100%;
+   width: 50%;
    height: 30px;
    cursor: pointer;
    background: #DBA901;
@@ -165,7 +165,7 @@ form input[type=submit]{
    border: white 0px;
    border-radius: 20px;
    transition: 1s;
-   margin-left: 1%;
+   margin-left: 12%;
 }
 
 form input:hover[type=submit]{
@@ -189,15 +189,85 @@ form input[type=password]:focus{
 }
 
 form a{
-   color: #000;
+   color: rgb(53, 88, 243);
    margin-left: 1%;
    transition: 0.5s;
    margin-left: 3%;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 form a:hover{
+   color: rgb(53, 88, 243);
+}
+
+/*Cadastro*/
+.form{
+   background: #fff;
+   max-width: 300px;
+   width: 70%;
+   padding: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border-radius: 10px;
+   border: solid 3px #000;
+}
+
+.form h2{
+   text-align: center;
    color: #000;
-   border-bottom: solid 1px #000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+
+.form input[type=text],
+.form input[type=tel],
+.form input[type=email],
+.form input[type=password]{
+   width: 96%;
+   height: 45px;
+   padding-left: 10px;
+   margin: 15px 0;
+   border: none;
+   background: none;
+   border-bottom: solid 2px #ccc;
+   transition: all .4s ease-in-out;
+   font-size: 18px;
+
+}
+
+.form input[type=text]:hover{
+   border-bottom: solid 2px rgb(212, 158, 9);
+}
+
+.form input[type=tel]:hover{
+   border-bottom: solid 2px rgb(212, 158, 9);
+}
+
+.form input[type=email]:hover{
+   border-bottom: solid 2px rgb(212, 158, 9);
+}
+
+.form input[type=password]:hover{
+   border-bottom: solid 2px rgb(212, 158, 9);
+}
+
+.form input[type=submit]{
+   width: 50%;
+   height: 30px;
+   cursor: pointer;
+   background: #DBA901;
+   color: #fff;
+   border: white 0px;
+   border-radius: 20px;
+   transition: 1s;
+   margin-left: 8%;
+}
+
+.form label{
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 
