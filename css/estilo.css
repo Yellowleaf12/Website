@@ -110,7 +110,7 @@ form{
    width: 70%;
    padding: 20px;
    position: absolute;
-   top: 50%;
+   top: 55%;
    left: 50%;
    transform: translate(-50%,-50%);
    border-radius: 10px;
@@ -123,6 +123,7 @@ form h2{
    color: #000;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 30px;
+   border-bottom: 2px #000 solid;
 }
 
 form input[type=text],
@@ -142,19 +143,19 @@ form input[type=password]{
 }
 
 form input[type=text]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 form input[type=tel]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 form input[type=email]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 form input[type=password]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 form input[type=submit]{
@@ -210,25 +211,23 @@ form a:hover{
    color: #fff;
    padding: 10px;
    font-size: 20px;
-   margin-left: 15%;
-   background: #BDBDBD;
-   border-radius: 5px;
-   border: #000 solid 1px;
+   background: #DF013A;
+   border-radius: 3px;
+   letter-spacing: 3.7px;
+
 }
 
 .google:hover{
-   color: #fff;
-   background: #FFBF00;
+   color: #ccc;
 }
 
 .insta{
    color: #fff;
    padding: 10px;
    font-size: 20px;
-   margin-left: 11%;
-   background:  #BDBDBD;
-   border-radius: 5px;
-   border: #000 solid 1px;
+   background-image: linear-gradient(to right, #BF00FF, #FF00FF, #DF7401, #FE2E9A, #FF0040);
+   border-radius: 3px;
+   letter-spacing: 2px;
 }
 
 .insta img{
@@ -236,8 +235,7 @@ form a:hover{
 }
 
 .insta:hover{
-   color: #fff;
-   background: #FFBF00;
+   color: #ccc;
 }
 
 
@@ -282,19 +280,19 @@ form a:hover{
 }
 
 .form input[type=text]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 .form input[type=tel]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 .form input[type=email]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 .form input[type=password]:hover{
-   border-bottom: solid 2px rgb(212, 158, 9);
+   border-bottom: solid 2px #000;
 }
 
 .form input[type=submit]{
