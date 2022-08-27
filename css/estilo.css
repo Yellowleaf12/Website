@@ -180,7 +180,7 @@ form input[type=submit]{
    border: white 0px;
    border-radius: 20px;
    transition: 1s;
-   margin-left: 12%;
+   margin-left: 8%;
 }
 
 form input:hover[type=submit]{
@@ -317,7 +317,7 @@ form a:hover{
    border: white 0px;
    border-radius: 20px;
    transition: 1s;
-   margin-left: 8%;
+   margin-left: 6%;
 }
 
 .form label{
