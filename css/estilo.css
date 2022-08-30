@@ -216,6 +216,15 @@ form a:hover{
    color: rgb(53, 88, 243);
 }
 
+form label{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.esqueceu{
+   margin-left: 8%;
+}
+
 .google img{
    width: 15px;
 }
@@ -226,8 +235,7 @@ form a:hover{
    font-size: 20px;
    background: #DF013A;
    border-radius: 5px;
-   letter-spacing: 1.1px;
-   margin-left: 11%;
+   letter-spacing: 0.1px;
 }
 
 .google:hover{
@@ -240,7 +248,7 @@ form a:hover{
    font-size: 20px;
    background: #3b5998;
    border-radius: 5px;
-   margin-left: 11%;
+   letter-spacing: -0.9px;
 }
 
 .insta img{

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/formulario-check.js"></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <title>YELLOW LEAF</title>
 </head>
@@ -35,8 +36,10 @@
         <form>
             <h2>Entrar</h2>
             <input type="email" name="email" placeholder="Email"/>
-            <input type="password" name="senha" placeholder="Senha"/>
-            <a href="singup.html">Esqueceu a Senha?</a><br><br><br><br>
+            <input type="password" name="senha" placeholder="Senha" id="show"/>
+            <input type="checkbox"  name="" onclick="myFunction()">
+            <label>Mostrar Senha</label>
+            <a href="singup.html" class="esqueceu">Esqueceu a Senha?</a><br><br><br><br>
             <a href="#" class="google"><img src="img/google.png">   Sing in with google</a><br><br><br><br>
             <a href="#" class="insta"><img src="img/facebook-brands.png">    Sing in with facebook</a><br><br><br><br>
             <a href="singup.html">Crie sua conta!</a>
